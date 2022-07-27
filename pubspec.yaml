@@ -1,0 +1,55 @@
+name: crypto_coin
+description: Sample Flutter project with BLoC pattern.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  animate_do: ^2.0.0
+  bloc: ^8.0.2
+  cupertino_icons: ^1.0.2
+  device_preview: ^1.0.0
+  dio: ^4.0.4
+  fl_chart: ^0.40.6
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_svg: ^1.0.0
+  iconsax: ^0.0.8
+  loading_indicator: ^3.0.2
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  lints: ^1.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/cairo/
+    - assets/fonts/poppins/
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/cairo/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/cairo/Cairo-VariableFont_wght.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
